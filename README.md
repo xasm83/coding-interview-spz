@@ -1,6 +1,6 @@
 Real solved coding interview example. The tasks:
 
--For any two commits in the commit history of VCS find nearest common ancestor. Here:
+-For any two commits in the commit history of VCS find nearest common ancestor(lowest common ancestor LCA). Here:
 commitHashes - all commits from latest to earlier;
 parentHashes - stores parents of commit from commitHashes with the same index. Last value in this array is always
                null, because obviously initial commit have no ancestors.
